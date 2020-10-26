@@ -1,7 +1,9 @@
 import React from "react";
-import { makeStyles, withStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
+import CardActions from "@material-ui/core/CardActions";
+import Button from "@material-ui/core/Button";
 
 //import stock
 import stock from "../img/images/image1.jpg";
@@ -68,10 +70,10 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Lorem Ipsum</h2>
+                      <h2 className="w-title">goAds.com - A classifieds application</h2>
                       <div className="w-more">
-                        <span className="w-ctegory">
-                          HTML5 CSS3 Bootstrap ReactJS
+                        <span className="w-ctegory" >
+                          HTML5 CSS3 Bootstrap JS Jquery Handlebars Express node.js Sequelize Mysql MVC CRUD
                           </span>
                       </div>
                     </div>
@@ -118,7 +120,16 @@ function Portfolio() {
               >
                 jsx-a11y/anchor-has-content warning
                 </a>
+              <CardActions style={{ justifyContent: "space-between" }}>
+                <Button size="small" href="https://github.com/sushmakaluva/goAds.com">
+                  Github
+                </Button>
+                <Button size="small" href="https://fathomless-hollows-88186.herokuapp.com/">
+                  Live Demo
+                </Button>
+              </CardActions>
             </div>
+
           </div>
           <div className="col-md-4">
             <div className="work-box">
@@ -129,10 +140,10 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Lorem Ipsum</h2>
+                      <h2 className="w-title">flYjet - Flight search application</h2>
                       <div className="w-more">
                         <span className="w-ctegory">
-                          HTML5 CSS3 Bootstrap Webpack SmoothScrolling
+                          HTML5 CSS3 JS jQuery Bootstrap WebAPI
                           VanillaJS
                           </span>{" "}
                       </div>
@@ -180,6 +191,14 @@ function Portfolio() {
               >
                 jsx-a11y/anchor-has-content warning
                 </a>
+              <CardActions style={{ justifyContent: "space-between" }}>
+                <Button size="small" href="https://github.com/sushmakaluva/flYjet-Flight-Search">
+                  Github
+                </Button>
+                <Button size="small" href="https://sushmakaluva.github.io/flYjet-Flight-Search/">
+                  Live Demo
+                </Button>
+              </CardActions>
             </div>
           </div>
           <div className="col-md-4">
@@ -191,10 +210,10 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Lorem Ipsum</h2>
+                      <h2 className="w-title">Weather Dashboard</h2>
                       <div className="w-more">
                         <span className="w-ctegory">
-                          HTML5 CSS3 Bootstrap Webpack ReactJS
+                          HTML5 CSS3 Bootstrap Javascript Jquery JSON AJAX WebAPI LocalStorage
                           </span>
                         {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                       </div>
@@ -242,6 +261,14 @@ function Portfolio() {
               >
                 jsx-a11y/anchor-has-content warning
                 </a>
+              <CardActions style={{ justifyContent: "space-between" }}>
+                <Button size="small" href="https://github.com/sushmakaluva/Weather-dashboard">
+                  Github
+                </Button>
+                <Button size="small" href="https://sushmakaluva.github.io/Weather-dashboard/">
+                  Live Demo
+                </Button>
+              </CardActions>
             </div>
           </div>
           <div className="col-md-4">
@@ -254,10 +281,10 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Lorem Ipsum</h2>
+                      <h2 className="w-title">Coding Quiz</h2>
                       <div className="w-more">
                         <span className="w-ctegory">
-                          Bootstrap ReactJS GoogleAPI
+                          HTML5 CSS3 Javascript Jquery JSON Bootstrap LocalStorage Timers
                           </span>
                       </div>
                     </div>
@@ -304,6 +331,14 @@ function Portfolio() {
               >
                 jsx-a11y/anchor-has-content warning
                 </a>
+              <CardActions style={{ justifyContent: "space-between" }}>
+                <Button size="small" href="https://github.com/sushmakaluva/Code-Quiz">
+                  Github
+                </Button>
+                <Button size="small" href="https://sushmakaluva.github.io/Code-Quiz/">
+                  Live Demo
+                </Button>
+              </CardActions>
             </div>
           </div>
           <div className="col-md-4">
@@ -315,9 +350,9 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Lorem Ipsum</h2>
+                      <h2 className="w-title">Day Planner</h2>
                       <div className="w-more">
-                        <span className="w-ctegory">MERN</span>
+                        <span className="w-ctegory">HTML5 CSS3 Javascript Bootstrap Jquery JSON</span>
                       </div>
                     </div>
                     <div className="col-sm-4">
@@ -363,6 +398,14 @@ function Portfolio() {
               >
                 jsx-a11y/anchor-has-content warning
                 </a>
+              <CardActions style={{ justifyContent: "space-between" }}>
+                <Button size="small" href="https://github.com/sushmakaluva/Day-Planner">
+                  Github
+                </Button>
+                <Button size="small" href="https://sushmakaluva.github.io/Day-Planner/">
+                  Live Demo
+                </Button>
+              </CardActions>
             </div>
           </div>
           <div className="col-md-4">
@@ -374,10 +417,10 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Lorem Ipsum</h2>
+                      <h2 className="w-title">Employee Directory (React) </h2>
                       <div className="w-more">
                         <span className="w-ctegory">
-                          HTML5 CSS3 Bootstrap MERN
+                          React CSS3 Bootstrap WebAPI
                           </span>
                       </div>
                     </div>
@@ -424,6 +467,14 @@ function Portfolio() {
               >
                 jsx-a11y/anchor-has-content warning
                 </a>
+              <CardActions style={{ justifyContent: "space-between" }}>
+                <Button size="small" href="https://github.com/sushmakaluva/react-employee-directory">
+                  Github
+                </Button>
+                <Button size="small" href="https://sushmakaluva.github.io/react-employee-directory/">
+                  Live Demo
+                </Button>
+              </CardActions>
             </div>
           </div>
         </div>
