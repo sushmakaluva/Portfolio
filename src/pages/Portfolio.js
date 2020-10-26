@@ -62,10 +62,10 @@ function Portfolio() {
         </div>
         <div className="row">
           <div className="col-md-4">
-            <div className="work-box">
+            <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock} data-lightbox="gallery-vmarine">
-                <div className="work-img">
-                  <img src={stock} alt="" className="img-fluid" />
+                <div className="work-img" style={{ borderRadius: "20px" }}>
+                  <img src={stock} alt="goAds-website" className="img-fluid" />
                 </div>
                 <div className="work-content">
                   <div className="row">
@@ -132,9 +132,9 @@ function Portfolio() {
 
           </div>
           <div className="col-md-4">
-            <div className="work-box">
+            <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock1} data-lightbox="gallery-aguadeluz">
-                <div className="work-img">
+                <div className="work-img" style={{ borderRadius: "20px" }}>
                   <img src={stock1} alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
@@ -202,9 +202,9 @@ function Portfolio() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="work-box">
+            <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock2} data-lightbox="gallery-todo">
-                <div className="work-img">
+                <div className="work-img" style={{ borderRadius: "20px" }}>
                   <img src={stock2} alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
@@ -272,9 +272,9 @@ function Portfolio() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="work-box">
+            <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock3} data-lightbox="gallery-medlingos">
-                <div className="work-img">
+                <div className="work-img" style={{ borderRadius: "20px" }}>
                   <img src={stock3
                   } alt="" className="img-fluid" />
                 </div>
@@ -342,9 +342,9 @@ function Portfolio() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="work-box">
+            <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock4} data-lightbox="gallery-smth">
-                <div className="work-img">
+                <div className="work-img" style={{ borderRadius: "20px" }}>
                   <img src={stock4} alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
@@ -409,9 +409,9 @@ function Portfolio() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="work-box">
+            <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock5} data-lightbox="gallery-mf">
-                <div className="work-img">
+                <div className="work-img" style={{ borderRadius: "20px" }}>
                   <img src={stock5} alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
