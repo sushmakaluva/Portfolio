@@ -15,7 +15,7 @@ class About extends React.Component {
         {
           id: "second-p-about",
           content:
-            "Full Stack Developer and recent graduate of the UofT Coding Bootcamp with a passion for solving logic problems with efficient and readable code. Skilled in building web applications with object-oriented JavaScript and Node.js.  Leverages experience as a professional actor to communicate effectively, and perform well under pressure and with tight deadlines. Ready to add experience and skills to a team of spirited developers. Excited to contribute meaningfully to a project and boost the value of the company."
+            "Full Stack Developer and recent graduate of the UofT Coding Bootcamp with a passion for solving logic problems with efficient and readable code. Skilled in building web applications with object-oriented JavaScript and Node.js. Ready to add experience and skills to a team of spirited developers. Excited to contribute meaningfully to a project and boost the value of the company."
         },
         {
           id: "third-p-about",
@@ -32,7 +32,7 @@ class About extends React.Component {
 
       headingStyle: {
         color: "tomato",
-        margin:"10px"
+        margin: "10px"
       },
 
       aboutStyle: {
@@ -74,46 +74,46 @@ class About extends React.Component {
                       return (
                           <React.Fragment>
                         <h5 style={this.state.headingStyle}>Web Technologies :</h5>
-                            <Button variant="primary" style={this.state.btnStyle}> HTML</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>CSS</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>JS</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>Bootstrap</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>React</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>jQuery</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>AJAX</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>Express</Button>{' '}
-                        
+                        <Button variant="primary" style={this.state.btnStyle}> HTML</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>CSS</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>JS</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Bootstrap</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>React</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>jQuery</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>AJAX</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Express</Button>{' '}
+
                         <h5 style={this.state.headingStyle}>Frameworks:</h5>
-                            <Button variant="primary" style={this.state.btnStyle}>React</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>Node JS</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>RESTful API</Button>{' '}
-                            
+                        <Button variant="primary" style={this.state.btnStyle}>React</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Node JS</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>RESTful API</Button>{' '}
+
                         <h5 style={this.state.headingStyle}>Databases:</h5>
-                        
-                            <Button variant="primary" style={this.state.btnStyle}>MySQL</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>MongoDB</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>PostgreSQL</Button>{' '}
-                            
+
+                        <Button variant="primary" style={this.state.btnStyle}>MySQL</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>MongoDB</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>PostgreSQL</Button>{' '}
+
                         <h5 style={this.state.headingStyle}>Tools:</h5>
-                       
-                            <Button variant="primary" style={this.state.btnStyle}>Git</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>Linux</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>Bitbucket</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>Postman</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>Linux</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>Bitbucket</Button>{' '}
-                          
+
+                        <Button variant="primary" style={this.state.btnStyle}>Git</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Linux</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Bitbucket</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Postman</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Linux</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Bitbucket</Button>{' '}
+
                         <h5 style={this.state.headingStyle}>Package Management:</h5>
-                        
-                            <Button variant="primary" style={this.state.btnStyle}>  npm</Button>{' '}
-                            
+
+                        <Button variant="primary" style={this.state.btnStyle}>  npm</Button>{' '}
+
                         <h5 style={this.state.headingStyle}>Analytics & Reporting:</h5>
-                        
-                            <Button variant="primary" style={this.state.btnStyle}>Tableau</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>Oracle BI</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>Power BI</Button>{' '}
-                            <Button variant="primary" style={this.state.btnStyle}>Advanced Excel</Button>{' '}
-                           
+
+                        <Button variant="primary" style={this.state.btnStyle}>Tableau</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Oracle BI</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Power BI</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Advanced Excel</Button>{' '}
+
                       </React.Fragment>
                       );
                       }}
