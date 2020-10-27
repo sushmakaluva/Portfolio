@@ -60,8 +60,8 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-4">
+        <div className="row card-group">
+          <div className="col-md-4 h-100" >
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock} data-lightbox="gallery-vmarine">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
@@ -73,7 +73,7 @@ function Portfolio() {
                       <h2 className="w-title">goAds.com - A classifieds application</h2>
                       <div className="w-more">
                         <span className="w-ctegory" >
-                          HTML5 CSS3 Bootstrap JS Jquery Handlebars Express node.js Sequelize Mysql MVC CRUD
+                          HTML5 CSS3 Bootstrap JS Jquery Handlebars Express node.js Mysql MVC
                           </span>
                       </div>
                     </div>
@@ -131,7 +131,7 @@ function Portfolio() {
             </div>
 
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 h-100" >
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock1} data-lightbox="gallery-aguadeluz">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
@@ -148,7 +148,7 @@ function Portfolio() {
                           </span>{" "}
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-4" style={{height:"70px"}}>
                       <div className="w-like">
                         <span className="ion-ios-plus-outline"></span>
                       </div>
@@ -201,7 +201,7 @@ function Portfolio() {
               </CardActions>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 h-100" >
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock2} data-lightbox="gallery-todo">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
@@ -210,15 +210,16 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Weather Dashboard</h2>
+                      <h2 className="w-title">Weather Dashboard - A weather tracking application</h2>
                       <div className="w-more">
                         <span className="w-ctegory">
-                          HTML5 CSS3 Bootstrap Javascript Jquery JSON AJAX WebAPI LocalStorage
+                          HTML5 CSS3 Bootstrap Javascript
+                          Jquery JSON AJAX WebAPI LocalStorage
                           </span>
                         {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-4" style={{height:"70px"}}>
                       <div className="w-like">
                         <span className="ion-ios-plus-outline"></span>
                       </div>
@@ -261,7 +262,7 @@ function Portfolio() {
               >
                 jsx-a11y/anchor-has-content warning
                 </a>
-              <CardActions style={{ justifyContent: "space-between" }}>
+              <CardActions style={{ justifyContent: "space-between"}}>
                 <Button size="small" href="https://github.com/sushmakaluva/Weather-dashboard">
                   Github
                 </Button>
@@ -271,7 +272,7 @@ function Portfolio() {
               </CardActions>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 h-100" >
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock3} data-lightbox="gallery-medlingos">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
@@ -281,10 +282,11 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Coding Quiz</h2>
+                      <h2 className="w-title">Coding Quiz - A Javascript quiz application</h2>
                       <div className="w-more">
                         <span className="w-ctegory">
                           HTML5 CSS3 Javascript Jquery JSON Bootstrap LocalStorage Timers
+
                           </span>
                       </div>
                     </div>
@@ -331,7 +333,7 @@ function Portfolio() {
               >
                 jsx-a11y/anchor-has-content warning
                 </a>
-              <CardActions style={{ justifyContent: "space-between" }}>
+              <CardActions style={{ justifyContent: "space-between"}}>
                 <Button size="small" href="https://github.com/sushmakaluva/Code-Quiz">
                   Github
                 </Button>
@@ -341,7 +343,7 @@ function Portfolio() {
               </CardActions>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 h-100" >
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock4} data-lightbox="gallery-smth">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
@@ -408,7 +410,7 @@ function Portfolio() {
               </CardActions>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 h-100" >
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock5} data-lightbox="gallery-mf">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
@@ -417,7 +419,7 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Employee Directory (React) </h2>
+                      <h2 className="w-title">Employee Directory - Built using React </h2>
                       <div className="w-more">
                         <span className="w-ctegory">
                           React CSS3 Bootstrap WebAPI

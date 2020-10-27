@@ -60,7 +60,7 @@ function Intro() {
             <p className="pt-3">
               <a
                 className="btn btn-primary btn js-scroll px-4"
-                href="#work"
+                href="/resume"
                 role="button"
               >
                 View my Resume

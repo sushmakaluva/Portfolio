@@ -1,6 +1,6 @@
 import React from "react";
 //import components
-import Navbar from './components/Navbar.js';
+import Navbar2 from './components/Navbar2.js';
 import Intro from './pages/Intro.js';
 import About from './pages/About.js';
 import Portfolio from './pages/Portfolio.js';
@@ -10,11 +10,12 @@ import Preloader from './components/preloader';
 import Particles from "./components/Particles";
 
 
+
 function App() {
     return (
         <React.Fragment>
-            <Particles/>
-            <Navbar />
+            <Particles />
+            <Navbar2 />
             <Intro />
             <About />
             <Portfolio />

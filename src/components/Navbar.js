@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import $ from "jquery";
+import {BrowserRouter as Router} from 'react-router-dom';
 
 class Navbar extends Component {
 
@@ -78,45 +79,48 @@ class Navbar extends Component {
           <nav
             className="navbar fixed-top navbar-dark justify-content-start">
             <a className="navbar-brand" href="https://github.com/sushmakaluva"
-            ><i className="fa fa-github fa-lg"></i
+            ><i className="fa fa-github fa-md"></i
             ></a>
             <a
               className="navbar-brand"
               href="https://www.linkedin.com/in/sushma-reddy-kaluva/"
-            ><i className="fa fa-linkedin-square fa-lg"></i
+            ><i className="fa fa-linkedin-square fa-md"></i
             ></a>
             <a
               className="navbar-brand"
               href="mailto:kaluvasushma@gmail.com?Subject=Hello Sushma&Body=I would like to get in touch !"
-            ><i className="fa fa-envelope fa-lg"></i
+            ><i className="fa fa-envelope fa-md"></i
             ></a>
           </nav>
           <div
             className="navbar-collapse collapse justify-content-end"
             id="navbarDefault"
           >
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link js-scroll active" href="#home">
-                  Home
+            <Router>
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <a className="nav-link js-scroll active" href="#home">
+                    Home
                 </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll" href="#about">
-                  About
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link js-scroll" href="#about" >
+                    About
                 </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll" href="#work">
-                  Work
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link js-scroll" href="#work">
+                    Work
                 </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll" href="#contact">
-                  Contact
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link js-scroll" href="#contact">
+                    Contact
                 </a>
-              </li>
-            </ul>
+                </li>
+              </ul>
+            </Router>
           </div>
         </div>
       </nav>

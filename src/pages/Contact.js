@@ -66,7 +66,7 @@ function Contact() {
   const classes = useStyles();
 
   return (
-    <section className="paralax-mf footer-paralax bg-image sect-mt4 route">
+    <section id="contact" className="paralax-mf footer-paralax bg-image sect-mt4 route">
       <Box component="div" className={classes.contactContainer}>
         <Grid container justify="center">
           <Box component="form" className={classes.form}>
@@ -123,7 +123,7 @@ function Contact() {
       </Box >
 
       <footer>
-        <div className="container"style={{marginTop:"90px"}}>
+        <div className="container" style={{ marginTop: "90px" }}>
           <div className="row">
             <div className="col-sm-12">
               <div className="copyright-box" style={{ color: "tan" }}>
