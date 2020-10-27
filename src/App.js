@@ -1,6 +1,6 @@
 import React from "react";
 //import components
-import Navbar2 from './components/Navbar2.js';
+import Navbar from './components/Navbar.js';
 import Intro from './pages/Intro.js';
 import About from './pages/About.js';
 import Portfolio from './pages/Portfolio.js';
@@ -15,7 +15,7 @@ function App() {
     return (
         <React.Fragment>
             <Particles />
-            <Navbar2 />
+            <Navbar />
             <Intro />
             <About />
             <Portfolio />

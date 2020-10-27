@@ -85,46 +85,12 @@ function Portfolio() {
                   </div>
                 </div>
               </a>
-              <a
-                href={stock1}
-                data-lightbox="gallery-vmarine"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock2}
-                data-lightbox="gallery-vmarine"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock3}
-                data-lightbox="gallery-vmarine"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock4}
-                data-lightbox="gallery-vmarine"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock5}
-                data-lightbox="gallery-vmarine"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <CardActions style={{ justifyContent: "space-between" }}>
-                <Button size="small" href="https://github.com/sushmakaluva/goAds.com">
+        
+              <CardActions style={{ justifyContent: "space-between", margin:"10px" }}>
+                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://github.com/sushmakaluva/goAds.com">
                   Github
                 </Button>
-                <Button size="small" href="https://fathomless-hollows-88186.herokuapp.com/">
+                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://fathomless-hollows-88186.herokuapp.com/">
                   Live Demo
                 </Button>
               </CardActions>
@@ -156,46 +122,11 @@ function Portfolio() {
                   </div>
                 </div>
               </a>
-              <a
-                href={stock1}
-                data-lightbox="gallery-aguadeluz"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock2}
-                data-lightbox="gallery-aguadeluz"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock3}
-                data-lightbox="gallery-aguadeluz"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock4}
-                data-lightbox="gallery-aguadeluz"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock5}
-                data-lightbox="gallery-aguadeluz"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <CardActions style={{ justifyContent: "space-between" }}>
-                <Button size="small" href="https://github.com/sushmakaluva/flYjet-Flight-Search">
+              <CardActions style={{ justifyContent: "space-between", margin:"10px" }}>
+                <Button size="small" style={{backgroundColor:"#d9d7d0"}}  href="https://github.com/sushmakaluva/flYjet-Flight-Search">
                   Github
                 </Button>
-                <Button size="small" href="https://sushmakaluva.github.io/flYjet-Flight-Search/">
+                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://sushmakaluva.github.io/flYjet-Flight-Search/">
                   Live Demo
                 </Button>
               </CardActions>
@@ -216,7 +147,6 @@ function Portfolio() {
                           HTML5 CSS3 Bootstrap Javascript
                           Jquery JSON AJAX WebAPI LocalStorage
                           </span>
-                        {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                       </div>
                     </div>
                     <div className="col-sm-4" style={{height:"70px"}}>
@@ -227,46 +157,11 @@ function Portfolio() {
                   </div>
                 </div>
               </a>
-              <a
-                href={stock1}
-                data-lightbox="gallery-todo"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock2}
-                data-lightbox="gallery-todo"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock3}
-                data-lightbox="gallery-todo"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock4}
-                data-lightbox="gallery-todo"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock5}
-                data-lightbox="gallery-todo"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <CardActions style={{ justifyContent: "space-between"}}>
-                <Button size="small" href="https://github.com/sushmakaluva/Weather-dashboard">
+              <CardActions style={{ justifyContent: "space-between", margin:"10px"}}>
+                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://github.com/sushmakaluva/Weather-dashboard">
                   Github
                 </Button>
-                <Button size="small" href="https://sushmakaluva.github.io/Weather-dashboard/">
+                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://sushmakaluva.github.io/Weather-dashboard/">
                   Live Demo
                 </Button>
               </CardActions>
@@ -298,46 +193,11 @@ function Portfolio() {
                   </div>
                 </div>
               </a>
-              <a
-                href={stock1}
-                data-lightbox="gallery-medlingos"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock2}
-                data-lightbox="gallery-medlingos"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock3}
-                data-lightbox="gallery-medlingos"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock4}
-                data-lightbox="gallery-medlingos"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock5}
-                data-lightbox="gallery-medlingos"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <CardActions style={{ justifyContent: "space-between"}}>
-                <Button size="small" href="https://github.com/sushmakaluva/Code-Quiz">
+              <CardActions style={{ justifyContent: "space-between", margin:"10px"}}>
+                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://github.com/sushmakaluva/Code-Quiz">
                   Github
                 </Button>
-                <Button size="small" href="https://sushmakaluva.github.io/Code-Quiz/">
+                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://sushmakaluva.github.io/Code-Quiz/">
                   Live Demo
                 </Button>
               </CardActions>
@@ -365,46 +225,11 @@ function Portfolio() {
                   </div>
                 </div>
               </a>
-              <a
-                href={stock1}
-                data-lightbox="gallery-smth"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock2}
-                data-lightbox="gallery-smth"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock3}
-                data-lightbox="gallery-smth"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock4}
-                data-lightbox="gallery-smth"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock5}
-                data-lightbox="gallery-smth"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <CardActions style={{ justifyContent: "space-between" }}>
-                <Button size="small" href="https://github.com/sushmakaluva/Day-Planner">
+              <CardActions style={{ justifyContent: "space-between" , margin:"10px"}}>
+                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://github.com/sushmakaluva/Day-Planner">
                   Github
                 </Button>
-                <Button size="small" href="https://sushmakaluva.github.io/Day-Planner/">
+                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://sushmakaluva.github.io/Day-Planner/">
                   Live Demo
                 </Button>
               </CardActions>
@@ -434,46 +259,11 @@ function Portfolio() {
                   </div>
                 </div>
               </a>
-              <a
-                href={stock1}
-                data-lightbox="gallery-mf"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock2}
-                data-lightbox="gallery-mf"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock3}
-                data-lightbox="gallery-mf"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock4}
-                data-lightbox="gallery-mf"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <a
-                href={stock5}
-                data-lightbox="gallery-mf"
-                style={{ display: "none" }}
-              >
-                jsx-a11y/anchor-has-content warning
-                </a>
-              <CardActions style={{ justifyContent: "space-between" }}>
-                <Button size="small" href="https://github.com/sushmakaluva/react-employee-directory">
+              <CardActions style={{ justifyContent: "space-between",margin:"10px" }}>
+                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://github.com/sushmakaluva/react-employee-directory">
                   Github
                 </Button>
-                <Button size="small" href="https://sushmakaluva.github.io/react-employee-directory/">
+                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://sushmakaluva.github.io/react-employee-directory/">
                   Live Demo
                 </Button>
               </CardActions>
