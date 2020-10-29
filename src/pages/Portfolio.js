@@ -85,12 +85,12 @@ function Portfolio() {
                   </div>
                 </div>
               </a>
-        
-              <CardActions style={{ justifyContent: "space-between", margin:"10px" }}>
-                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://github.com/sushmakaluva/goAds.com">
+
+              <CardActions style={{ justifyContent: "space-between", margin: "10px" }}>
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://github.com/sushmakaluva/goAds.com">
                   Github
                 </Button>
-                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://fathomless-hollows-88186.herokuapp.com/">
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://fathomless-hollows-88186.herokuapp.com/">
                   Live Demo
                 </Button>
               </CardActions>
@@ -114,7 +114,7 @@ function Portfolio() {
                           </span>{" "}
                       </div>
                     </div>
-                    <div className="col-sm-4" style={{height:"70px"}}>
+                    <div className="col-sm-4" style={{ height: "70px" }}>
                       <div className="w-like">
                         <span className="ion-ios-plus-outline"></span>
                       </div>
@@ -122,11 +122,11 @@ function Portfolio() {
                   </div>
                 </div>
               </a>
-              <CardActions style={{ justifyContent: "space-between", margin:"10px" }}>
-                <Button size="small" style={{backgroundColor:"#d9d7d0"}}  href="https://github.com/sushmakaluva/flYjet-Flight-Search">
+              <CardActions style={{ justifyContent: "space-between", margin: "10px" }}>
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://github.com/sushmakaluva/flYjet-Flight-Search">
                   Github
                 </Button>
-                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://sushmakaluva.github.io/flYjet-Flight-Search/">
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://sushmakaluva.github.io/flYjet-Flight-Search/">
                   Live Demo
                 </Button>
               </CardActions>
@@ -149,7 +149,7 @@ function Portfolio() {
                           </span>
                       </div>
                     </div>
-                    <div className="col-sm-4" style={{height:"70px"}}>
+                    <div className="col-sm-4" style={{ height: "70px" }}>
                       <div className="w-like">
                         <span className="ion-ios-plus-outline"></span>
                       </div>
@@ -157,11 +157,11 @@ function Portfolio() {
                   </div>
                 </div>
               </a>
-              <CardActions style={{ justifyContent: "space-between", margin:"10px"}}>
-                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://github.com/sushmakaluva/Weather-dashboard">
+              <CardActions style={{ justifyContent: "space-between", margin: "10px" }}>
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://github.com/sushmakaluva/Weather-dashboard">
                   Github
                 </Button>
-                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://sushmakaluva.github.io/Weather-dashboard/">
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://sushmakaluva.github.io/Weather-dashboard/">
                   Live Demo
                 </Button>
               </CardActions>
@@ -193,11 +193,11 @@ function Portfolio() {
                   </div>
                 </div>
               </a>
-              <CardActions style={{ justifyContent: "space-between", margin:"10px"}}>
-                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://github.com/sushmakaluva/Code-Quiz">
+              <CardActions style={{ justifyContent: "space-between", margin: "10px" }}>
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://github.com/sushmakaluva/Code-Quiz">
                   Github
                 </Button>
-                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://sushmakaluva.github.io/Code-Quiz/">
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://sushmakaluva.github.io/Code-Quiz/">
                   Live Demo
                 </Button>
               </CardActions>
@@ -225,11 +225,11 @@ function Portfolio() {
                   </div>
                 </div>
               </a>
-              <CardActions style={{ justifyContent: "space-between" , margin:"10px"}}>
-                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://github.com/sushmakaluva/Day-Planner">
+              <CardActions style={{ justifyContent: "space-between", margin: "10px" }}>
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://github.com/sushmakaluva/Day-Planner">
                   Github
                 </Button>
-                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://sushmakaluva.github.io/Day-Planner/">
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://sushmakaluva.github.io/Day-Planner/">
                   Live Demo
                 </Button>
               </CardActions>
@@ -259,11 +259,11 @@ function Portfolio() {
                   </div>
                 </div>
               </a>
-              <CardActions style={{ justifyContent: "space-between",margin:"10px" }}>
-                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://github.com/sushmakaluva/react-employee-directory">
+              <CardActions style={{ justifyContent: "space-between", margin: "10px" }}>
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://github.com/sushmakaluva/react-employee-directory">
                   Github
                 </Button>
-                <Button size="small" style={{backgroundColor:"#d9d7d0"}} href="https://sushmakaluva.github.io/react-employee-directory/">
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://sushmakaluva.github.io/react-employee-directory/">
                   Live Demo
                 </Button>
               </CardActions>
