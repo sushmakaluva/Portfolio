@@ -10,18 +10,19 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Front-End Developer graduated from UofT, adept at building responsive web applications utilizing agile development. Passionate about learning new technologies, bringing ideas to life, and working with dedicated teams to build efficient and robust applications suited to the user’s needs."
+            "   Innovative Front-End Developer with a passion for solving logical problems with efficient and readable code. Skilled in building web applications with HTML, CSS, JavaScript and ReactJS. Ready to add experience and skills to a team of spirited developers. Excited to contribute meaningfully to a project and boost the value of the company."
         },
         {
           id: "second-p-about",
           content:
-            "Full Stack Developer and recent graduate of the UofT Coding Bootcamp with a passion for solving logic problems with efficient and readable code. Skilled in building web applications with object-oriented JavaScript and Node.js. Ready to add experience and skills to a team of spirited developers. Excited to contribute meaningfully to a project and boost the value of the company."
+            "My coding journey started off with designing a few web pages for my organization. Learning Javascript was my next venture; this is the one which gave me a taste of what coding is all about. That's how I kick-started my coding journey which eventually led me into programming and web-designing."
         },
         {
           id: "third-p-about",
           content:
-            "Innovative and Experienced Front-End Developer, adept in all stages of web development, knowledgeable in User Interface, testing and debugging process. Equipped with a diverse and promising skill set, proficient in in technologies HTML, CSS, JavaScript libraries and frameworks, who can efficiently self-manage given projects and can collaborate with the team. "
+            " And, there was no looking back ! Now I completely enjoy coding and it has become a part of my life. I am ever-ready to learn new frameworks, libraries & technologies and continuously strive to be a better developer."
         }
+
       ],
 
       btnStyle: {
@@ -74,9 +75,9 @@ class About extends React.Component {
                       return (
                           <React.Fragment>
                         <h5 style={this.state.headingStyle}>Web Technologies :</h5>
-                        <Button variant="primary" style={this.state.btnStyle}> HTML</Button>{' '}
-                        <Button variant="primary" style={this.state.btnStyle}>CSS</Button>{' '}
-                        <Button variant="primary" style={this.state.btnStyle}>JS</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}> HTML5</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>CSS3</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Javascript</Button>{' '}
                         <Button variant="primary" style={this.state.btnStyle}>Bootstrap</Button>{' '}
                         <Button variant="primary" style={this.state.btnStyle}>React</Button>{' '}
                         <Button variant="primary" style={this.state.btnStyle}>jQuery</Button>{' '}
@@ -101,7 +102,7 @@ class About extends React.Component {
                         <Button variant="primary" style={this.state.btnStyle}>Bitbucket</Button>{' '}
                         <Button variant="primary" style={this.state.btnStyle}>Postman</Button>{' '}
                         <Button variant="primary" style={this.state.btnStyle}>Linux</Button>{' '}
-                        <Button variant="primary" style={this.state.btnStyle}>Bitbucket</Button>{' '}
+                        <Button variant="primary" style={this.state.btnStyle}>Heroku</Button>{' '}
 
                         <h5 style={this.state.headingStyle}>Package Management:</h5>
 
