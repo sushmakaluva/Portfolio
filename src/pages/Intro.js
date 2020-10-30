@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import Avatar from "@material-ui/core/Avatar";
 import avatar from "../avatar.png";
 import { makeStyles } from "@material-ui/core/styles";
+import Pdf from '../../src/Documents/resume.pdf'
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
@@ -60,7 +61,7 @@ function Intro() {
             <p className="pt-3">
               <a
                 className="btn btn-primary btn js-scroll px-4"
-                href="/resume"
+                href = {Pdf} target = "_blank"
                 role="button"
               >
                 View my Resume
