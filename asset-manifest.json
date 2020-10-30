@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.27063648.chunk.css",
-    "main.js": "/Portfolio/static/js/main.9f48b35f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.9f48b35f.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.f006703b.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f006703b.js.map",
+    "main.js": "/Portfolio/static/js/main.107106a2.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.107106a2.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.c36dddb9.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c36dddb9.js.map",
     "static/css/2.242f24fe.chunk.css": "/Portfolio/static/css/2.242f24fe.chunk.css",
-    "static/js/2.1ccee4c6.chunk.js": "/Portfolio/static/js/2.1ccee4c6.chunk.js",
-    "static/js/2.1ccee4c6.chunk.js.map": "/Portfolio/static/js/2.1ccee4c6.chunk.js.map",
+    "static/js/2.58e63e46.chunk.js": "/Portfolio/static/js/2.58e63e46.chunk.js",
+    "static/js/2.58e63e46.chunk.js.map": "/Portfolio/static/js/2.58e63e46.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.8a3d9e07f5c46f97422c0078667a803a.js": "/Portfolio/precache-manifest.8a3d9e07f5c46f97422c0078667a803a.js",
+    "precache-manifest.5d8451a4b9e7577f102e36decef86fd6.js": "/Portfolio/precache-manifest.5d8451a4b9e7577f102e36decef86fd6.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.242f24fe.chunk.css.map": "/Portfolio/static/css/2.242f24fe.chunk.css.map",
     "static/css/main.27063648.chunk.css.map": "/Portfolio/static/css/main.27063648.chunk.css.map",
-    "static/js/2.1ccee4c6.chunk.js.LICENSE": "/Portfolio/static/js/2.1ccee4c6.chunk.js.LICENSE",
+    "static/js/2.58e63e46.chunk.js.LICENSE": "/Portfolio/static/js/2.58e63e46.chunk.js.LICENSE",
     "static/media/avatar.png": "/Portfolio/static/media/avatar.e77108f8.png",
     "static/media/style.css": "/Portfolio/static/media/coffee-apple.2dd213aa.jpg",
     "static/media/font-awesome.css": "/Portfolio/static/media/fontawesome-webfont.fee66e71.woff",
@@ -26,10 +26,10 @@
     "static/media/resume.pdf": "/Portfolio/static/media/resume.5b400ce2.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.f006703b.js",
+    "static/js/runtime-main.c36dddb9.js",
     "static/css/2.242f24fe.chunk.css",
-    "static/js/2.1ccee4c6.chunk.js",
+    "static/js/2.58e63e46.chunk.js",
     "static/css/main.27063648.chunk.css",
-    "static/js/main.9f48b35f.chunk.js"
+    "static/js/main.107106a2.chunk.js"
   ]
 }
