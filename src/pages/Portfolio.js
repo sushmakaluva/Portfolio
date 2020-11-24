@@ -9,7 +9,7 @@ import Button from "@material-ui/core/Button";
 import stock from "../img/images/image1.jpg";
 import stock1 from "../img/images/image2.jpg";
 import stock2 from "../img/images/image3.jpg";
-import stock3 from "../img/images/image4.jpg";
+import stock3 from "../img/images/image4.png";
 import stock4 from "../img/images/image5.png";
 import stock5 from "../img/images/image6.jpg";
 
@@ -70,7 +70,7 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">ReachMe - A Social media application</h2>
+                      <h2 className="w-title">ReachMe - A Social media application using MERN</h2>
                       <div className="w-more">
                         <span className="w-ctegory">MERN(Mongo, Express, React, Node), Firebase, Heroku, Mongo Atlas </span>
                       </div>
@@ -102,7 +102,7 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">goAds.com - A classified e-commerce application</h2>
+                      <h2 className="w-title">goAds.com - An e-commerce application</h2>
                       <div className="w-more">
                         <span className="w-ctegory" >
                           HTML5 CSS3 Bootstrap JS Jquery Handlebars Express node.js Mysql MVC
@@ -138,11 +138,11 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">flYjet - Flight search application</h2>
+                      <h2 className="w-title">flYjet - A Flight search web application</h2>
                       <div className="w-more">
                         <span className="w-ctegory">
                           HTML5 CSS3 JS jQuery Bootstrap WebAPI
-                          VanillaJS
+                          VanillaJS Skyscanner
                           </span>{" "}
                       </div>
                     </div>
@@ -173,7 +173,7 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Weather Dashboard - A weather tracking application</h2>
+                      <h2 className="w-title">Weather Dashboard - Forecast & Tracking</h2>
                       <div className="w-more">
                         <span className="w-ctegory">
                           HTML5 CSS3 Bootstrap Javascript
@@ -204,7 +204,7 @@ function Portfolio() {
               <a href={stock3} data-lightbox="gallery-medlingos">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
                   <img src={stock3
-                  } alt="" className="img-fluid" />
+                  } alt="quiz_img" className="img-fluid" />
                 </div>
                 <div className="work-content">
                   <div className="row">
@@ -244,10 +244,10 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Employee Directory - Built using React </h2>
+                      <h2 className="w-title">Employee Directory - Built using React components</h2>
                       <div className="w-more">
                         <span className="w-ctegory">
-                          React CSS3 Bootstrap WebAPI
+                          React - Components,State Management, CSS3 Bootstrap WebAPI
                           </span>
                       </div>
                     </div>
