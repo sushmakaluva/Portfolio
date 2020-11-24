@@ -10,7 +10,7 @@ import stock from "../img/images/image1.jpg";
 import stock1 from "../img/images/image2.jpg";
 import stock2 from "../img/images/image3.jpg";
 import stock3 from "../img/images/image4.jpg";
-import stock4 from "../img/images/image5.jpg";
+import stock4 from "../img/images/image5.png";
 import stock5 from "../img/images/image6.jpg";
 
 const useStyles = makeStyles((theme) => ({
@@ -61,6 +61,38 @@ function Portfolio() {
           </div>
         </div>
         <div className="row card-group">
+          <div className="col-md-4 h-100" >
+            <div className="work-box" style={{ borderRadius: "20px" }}>
+              <a href={stock4} data-lightbox="gallery-smth">
+                <div className="work-img" style={{ borderRadius: "20px" }}>
+                  <img src={stock4} alt="" className="img-fluid" />
+                </div>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">ReachMe - A Social media application</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">MERN(Mongo, Express, React, Node), Firebase, Heroku, Mongo Atlas </span>
+                      </div>
+                    </div>
+                    <div className="col-sm-4">
+                      <div className="w-like">
+                        <span className="ion-ios-plus-outline"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <CardActions style={{ justifyContent: "space-between", margin: "10px" }}>
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://github.com/sushmakaluva/ReachMe">
+                  Github
+                </Button>
+                <Button size="small" style={{ backgroundColor: "tan" }} href="https://rocky-dawn-25327.herokuapp.com/">
+                  Live Demo
+                </Button>
+              </CardActions>
+            </div>
+          </div>
           <div className="col-md-4 h-100" >
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock} data-lightbox="gallery-vmarine">
@@ -198,38 +230,6 @@ function Portfolio() {
                   Github
                 </Button>
                 <Button size="small" style={{ backgroundColor: "tan" }} href="https://sushmakaluva.github.io/Code-Quiz/">
-                  Live Demo
-                </Button>
-              </CardActions>
-            </div>
-          </div>
-          <div className="col-md-4 h-100" >
-            <div className="work-box" style={{ borderRadius: "20px" }}>
-              <a href={stock4} data-lightbox="gallery-smth">
-                <div className="work-img" style={{ borderRadius: "20px" }}>
-                  <img src={stock4} alt="" className="img-fluid" />
-                </div>
-                <div className="work-content">
-                  <div className="row">
-                    <div className="col-sm-8">
-                      <h2 className="w-title">Day Planner</h2>
-                      <div className="w-more">
-                        <span className="w-ctegory">HTML5 CSS3 Javascript Bootstrap Jquery JSON</span>
-                      </div>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <span className="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <CardActions style={{ justifyContent: "space-between", margin: "10px" }}>
-                <Button size="small" style={{ backgroundColor: "tan" }} href="https://github.com/sushmakaluva/Day-Planner">
-                  Github
-                </Button>
-                <Button size="small" style={{ backgroundColor: "tan" }} href="https://sushmakaluva.github.io/Day-Planner/">
                   Live Demo
                 </Button>
               </CardActions>

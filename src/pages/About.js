@@ -10,7 +10,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "   Innovative Front-End Developer with a passion for solving logical problems with efficient and readable code. Skilled in building web applications with HTML, CSS, JavaScript and ReactJS. Ready to add experience and skills to a team of spirited developers. Excited to contribute meaningfully to a project and boost the value of the company."
+            " Innovative Front-End Developer with a passion for solving logical problems with efficient and readable code. Skilled in building web applications with HTML, CSS, JavaScript, ReactJS, MERN stack. Ready to add experience and skills to a team of spirited developers and contribute meaningfully to a project."
         },
         {
           id: "second-p-about",
@@ -38,6 +38,7 @@ class About extends React.Component {
 
       aboutStyle: {
         color: "tan",
+        fontFamily:"Handlee"
       }
     };
   }
