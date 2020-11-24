@@ -61,7 +61,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="row card-group">
-          <div className="col-md-4 h-100" >
+          <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock4} data-lightbox="gallery-smth">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
@@ -93,7 +93,7 @@ function Portfolio() {
               </CardActions>
             </div>
           </div>
-          <div className="col-md-4 h-100" >
+          <div className="col-lg-4 col-md-6 col-sm-6" >
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock} data-lightbox="gallery-vmarine">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
@@ -129,7 +129,7 @@ function Portfolio() {
             </div>
 
           </div>
-          <div className="col-md-4 h-100" >
+          <div className="col-lg-4 col-md-6 col-sm-6" >
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock1} data-lightbox="gallery-aguadeluz">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
@@ -164,7 +164,7 @@ function Portfolio() {
               </CardActions>
             </div>
           </div>
-          <div className="col-md-4 h-100" >
+          <div className="col-lg-4 col-md-6 col-sm-6" >
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock2} data-lightbox="gallery-todo">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
@@ -199,7 +199,7 @@ function Portfolio() {
               </CardActions>
             </div>
           </div>
-          <div className="col-md-4 h-100" >
+          <div className="col-lg-4 col-md-6 col-sm-6" >
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock3} data-lightbox="gallery-medlingos">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
@@ -235,7 +235,7 @@ function Portfolio() {
               </CardActions>
             </div>
           </div>
-          <div className="col-md-4 h-100" >
+          <div className="col-lg-4 col-md-6 col-sm-6" >
             <div className="work-box" style={{ borderRadius: "20px" }}>
               <a href={stock5} data-lightbox="gallery-mf">
                 <div className="work-img" style={{ borderRadius: "20px" }}>
