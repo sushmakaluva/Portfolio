@@ -102,7 +102,7 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">goAds.com - A classifieds application</h2>
+                      <h2 className="w-title">goAds.com - A classified e-commerce application</h2>
                       <div className="w-more">
                         <span className="w-ctegory" >
                           HTML5 CSS3 Bootstrap JS Jquery Handlebars Express node.js Mysql MVC
